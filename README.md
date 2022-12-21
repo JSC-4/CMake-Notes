@@ -8,3 +8,6 @@ cmake [&lt;options&gt;] -S &lt;path-to-source&gt; -B &lt;path-to-build&gt;
 Prepopulate cached information  
 cmake -C &lt;initial_cache_script&gt; &lt;path-to-source&gt;  
 
+Build project  
+cmake --build &lt;dir&gt; -- &lt;build-tool-options&gt;  
+
