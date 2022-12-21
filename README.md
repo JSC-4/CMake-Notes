@@ -11,3 +11,8 @@ cmake -C &lt;initial_cache_script&gt; &lt;path-to-source&gt;
 Build project  
 cmake --build &lt;dir&gt; -- &lt;build-tool-options&gt;  
 
+Clean project  
+cmake --build &lt;dir&gt; -t clean  
+
+Alternative clean project  
+cmake --build &lt;dir&gt; --clean-first  
