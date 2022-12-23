@@ -15,4 +15,20 @@ Clean project
 cmake --build &lt;dir&gt; -t clean  
 
 Alternative clean project  
-cmake --build &lt;dir&gt; --clean-first  
+cmake --build &lt;dir&gt; --clean-first 
+
+Print text to the standard output. Adding a MODE argument the output can be customised.
+message()
+
+Partition CMake code into separate files to keep things ordered and separate.
+include()
+
+Include a file only once.
+include_guard()
+
+File command will let you read, write, and transfer files and work with the filesystem, file locks, paths, and archives.
+file()
+
+Execute_process allows you to run other processes and collect their output, which is usesful in scripts, and it can also be used in projects during the configuration stage.
+execute_process()
+
