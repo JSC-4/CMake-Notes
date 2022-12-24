@@ -32,3 +32,5 @@ file()
 Execute_process allows you to run other processes and collect their output, which is usesful in scripts, and it can also be used in projects during the configuration stage.
 execute_process()
 
+Create an executable file
+add_executable()
